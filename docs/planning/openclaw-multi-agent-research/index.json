@@ -2,8 +2,8 @@
   "initiative": "openclaw-multi-agent-research",
   "state": "active",
   "currentPhase": "Phase 6, continuous research loop",
-  "currentTask": "TASK-008",
-  "nextReadyTask": "TASK-009",
+  "currentTask": "TASK-009",
+  "nextReadyTask": "TASK-010",
   "files": [
     "SPEC.md",
     "ROADMAP.md",

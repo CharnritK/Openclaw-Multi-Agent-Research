@@ -384,6 +384,53 @@
 - Recommended sub-agent mode: `none`
 - Readiness: `Ready with assumptions`
 - Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-009`
+- Parent Epic ID: `EPIC-006`
+- Title: `Decide whether to execute or defer the OpenClaw-only prototype`
+- Objective: `Make the next decision explicit: execute the brief, or intentionally defer implementation and keep the repo in research mode.`
+- Why this exists: `The roadmap should not leave the chosen prototype in an ambiguous almost-next state.`
+- Required context:
+  - `research/openclaw-only-prototype-brief.md`
+  - `research/first-prototype-spike.md`
+  - `research/validation-and-decision-gates.md`
+- Inputs:
+  - `prototype brief`
+  - `current repo purpose and user priorities`
+- Deliverables:
+  - `research/prototype-execution-decision.md`
+- Files or areas likely affected:
+  - `research/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-008 complete`
+- Hard requirements:
+  - `Must end with a clear execute or defer decision.`
+  - `Must explain why the decision is appropriate now.`
+- Exploration space:
+  - `Exact framing of the execute versus defer recommendation.`
+- Acceptance criteria:
+  - `There is no ambiguity about the next move after the research phase.`
+  - `If deferred, the reasons are explicit.`
+- Validation / definition of done:
+  - `Review for a single explicit decision instead of mixed signals`
+- Out of scope:
+  - `Executing the prototype itself`
+- Risks / blast radius:
+  - `Low risk, documentation-only change.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `none`
+- Readiness: `Ready with assumptions`
+- Checklist:
   - [ ] context gathered
   - [ ] dependencies confirmed
   - [ ] scope checked against out-of-scope
