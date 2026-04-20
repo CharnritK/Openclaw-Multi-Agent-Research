@@ -5,8 +5,8 @@
 - initiative: `openclaw-multi-agent-research`
 - state: `active`
 - current phase: `Phase 6, continuous research loop`
-- current task: `TASK-009 Decide whether to execute or defer the OpenClaw-only prototype`
-- next ready task: `TASK-010 Open a concrete implementation or defer cleanly`
+- current task: `TASK-010 Deepen evidence beyond README-level claims`
+- next ready task: `TASK-011 Select the first deeper inspection target`
 
 ## Completed
 
@@ -19,10 +19,11 @@
 - validation and decision gates completed
 - first prototype spike selected
 - OpenClaw-only prototype brief completed
+- explicit prototype execution decision completed
 
 ## In progress
 
-- decide whether to execute or defer the OpenClaw-only prototype
+- deepen evidence beyond README-level claims
 
 ## Waiting / blocked
 
@@ -30,4 +31,4 @@
 
 ## Next best step
 
-Complete `TASK-009`, commit it as a modular execution-decision commit, then define `TASK-010` only if a follow-on implementation card is needed.
+Complete `TASK-010`, commit it as a modular deeper-evidence-plan commit, then define `TASK-011` only if another prioritization layer is still needed.

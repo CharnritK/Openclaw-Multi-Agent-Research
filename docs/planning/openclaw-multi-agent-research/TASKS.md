@@ -431,6 +431,56 @@
 - Recommended sub-agent mode: `none`
 - Readiness: `Ready with assumptions`
 - Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-010`
+- Parent Epic ID: `EPIC-006`
+- Title: `Deepen evidence beyond README-level claims`
+- Objective: `Strengthen the research by inspecting deeper source material before any live integration or prototype execution.`
+- Why this exists: `The current conclusions are good enough to narrow choices, but not yet strong enough to justify deeper implementation confidence.`
+- Required context:
+  - `notes/research-sources.md`
+  - `research/framework-comparison.md`
+  - `research/paperclip-integration.md`
+  - `research/hermes-integration.md`
+  - `research/prototype-execution-decision.md`
+- Inputs:
+  - `current first-pass research outputs`
+  - `upstream repos and docs`
+- Deliverables:
+  - `research/deeper-evidence-plan.md`
+- Files or areas likely affected:
+  - `research/`
+  - `notes/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-009 complete`
+- Hard requirements:
+  - `Must identify which unanswered questions actually require deeper inspection.`
+  - `Must prioritize evidence that could change the recommendation.`
+- Exploration space:
+  - `Exact evidence-collection strategy.`
+- Acceptance criteria:
+  - `A bounded deeper-research plan exists.`
+  - `The next evidence-gathering unit is explicit.`
+- Validation / definition of done:
+  - `Review for focused, decision-relevant evidence priorities rather than broad exploratory drift`
+- Out of scope:
+  - `Executing live integrations`
+- Risks / blast radius:
+  - `Low risk, documentation-only change.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `read-only reconnaissance`
+- Readiness: `Ready with assumptions`
+- Checklist:
   - [ ] context gathered
   - [ ] dependencies confirmed
   - [ ] scope checked against out-of-scope
