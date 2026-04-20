@@ -1,0 +1,199 @@
+# TASKS
+
+## Task Card
+
+- Task ID: `TASK-001`
+- Parent Epic ID: `EPIC-001`
+- Title: `Complete the canonical planning bundle`
+- Objective: `Create the minimum planning artifacts needed to make research execution orderly, reviewable, and resumable.`
+- Why this exists: `The repo cannot support continuous research well until scope, roadmap, risks, decisions, and readiness are explicit.`
+- Required context:
+  - `README.md`
+  - `docs/planning/openclaw-multi-agent-research/SPEC.md`
+  - `docs/planning/openclaw-multi-agent-research/ROADMAP.md`
+  - `docs/planning/openclaw-multi-agent-research/EPICS.md`
+- Inputs:
+  - `user request for objective, approach, final todo checklist, and continuous research`
+  - `Point's OpenClaw control-plane-first operating model`
+- Deliverables:
+  - `TASKS.md`
+  - `STATUS.md`
+  - `DECISIONS.md`
+  - `RISKS.md`
+  - `index.json`
+- Files or areas likely affected:
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `SPEC.md, ROADMAP.md, and EPICS.md drafted`
+- Hard requirements:
+  - `Planning artifacts must stay practical and compact.`
+  - `Task readiness must be explicit.`
+  - `Git commits must be modular and task-level.`
+- Exploration space:
+  - `Exact task decomposition and sequencing as long as it remains bounded.`
+- Acceptance criteria:
+  - `All canonical planning files exist.`
+  - `At least one next research task is execution-ready.`
+  - `Status, risks, and decisions are initialized.`
+- Validation / definition of done:
+  - `Verify the required files exist under docs/planning/openclaw-multi-agent-research/`
+  - `Review that each task card includes readiness and validation fields`
+- Out of scope:
+  - `Framework comparison content`
+  - `Detailed integration research`
+- Risks / blast radius:
+  - `Low risk, documentation-only changes.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `none`
+- Readiness: `Ready`
+- Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-002`
+- Parent Epic ID: `EPIC-002`
+- Title: `Write the first-pass framework comparison baseline`
+- Objective: `Create a practical comparison of candidate multi-agent frameworks and operating models against Point's OpenClaw-centered workflow.`
+- Why this exists: `Without an explicit comparison, framework choice will drift toward popularity instead of fit.`
+- Required context:
+  - `SPEC.md`
+  - `ROADMAP.md`
+  - `MULTI_AGENT_MODEL.md`
+  - `OpenClaw docs and selected upstream framework materials`
+- Inputs:
+  - `OpenClaw control-plane model`
+  - `LangGraph, MetaGPT, CAMEL, AutoGen, Paperclip, HermesClaw source material`
+- Deliverables:
+  - `research/framework-comparison.md`
+- Files or areas likely affected:
+  - `research/`
+- Dependencies:
+  - `TASK-001 complete`
+- Hard requirements:
+  - `Must evaluate fit for bounded orchestration, auditability, approval control, and practical operability.`
+  - `Must keep OpenClaw central in recommendations.`
+- Exploration space:
+  - `Final rubric wording and shortlist depth.`
+- Acceptance criteria:
+  - `At least four candidate approaches are compared.`
+  - `A recommended shortlist is stated.`
+  - `Tradeoffs are explicit, not implied.`
+- Validation / definition of done:
+  - `Review the document for explicit criteria, recommendations, and no unexplained ranking jumps`
+- Out of scope:
+  - `Production implementation`
+  - `Deep vendor benchmark analysis`
+- Risks / blast radius:
+  - `Medium risk of overgeneralizing from README-level evidence.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `read-only reconnaissance`
+- Readiness: `Ready with assumptions`
+- Checklist:
+  - [ ] context gathered
+  - [ ] dependencies confirmed
+  - [ ] scope checked against out-of-scope
+  - [ ] implementation/deliverable completed
+  - [ ] validation run
+  - [ ] docs/status updated
+  - [ ] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-003`
+- Parent Epic ID: `EPIC-003`
+- Title: `Write the first-pass Paperclip integration assessment`
+- Objective: `Determine where Paperclip should sit relative to OpenClaw and where it should not.`
+- Why this exists: `Paperclip could add operator value, but it may also duplicate orchestration and create control-plane confusion.`
+- Required context:
+  - `SPEC.md`
+  - `ROADMAP.md`
+  - `research/framework-comparison.md`
+  - `selected Paperclip source material`
+- Inputs:
+  - `paperclip-openclaw README and deployment notes`
+  - `Point's control-plane requirements`
+- Deliverables:
+  - `research/paperclip-integration.md`
+- Files or areas likely affected:
+  - `research/`
+- Dependencies:
+  - `TASK-002 materially complete`
+- Hard requirements:
+  - `Must separate operator-layer value from execution-layer overlap.`
+  - `Must state best-fit and no-fit cases.`
+- Exploration space:
+  - `Whether to recommend Paperclip now, later, or not at all.`
+- Acceptance criteria:
+  - `Paperclip role options are clearly enumerated.`
+  - `A recommendation and risk summary are included.`
+- Validation / definition of done:
+  - `Review for clear boundaries between Paperclip and OpenClaw responsibilities`
+- Out of scope:
+  - `Deploying Paperclip`
+- Risks / blast radius:
+  - `Medium risk of assuming Paperclip product direction from current README only.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `read-only reconnaissance`
+- Readiness: `Ready with assumptions`
+- Checklist:
+  - [ ] context gathered
+  - [ ] dependencies confirmed
+  - [ ] scope checked against out-of-scope
+  - [ ] implementation/deliverable completed
+  - [ ] validation run
+  - [ ] docs/status updated
+  - [ ] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-004`
+- Parent Epic ID: `EPIC-004`
+- Title: `Write the first-pass Hermes integration assessment`
+- Objective: `Determine the safest and most useful Hermes-Agent-to-OpenClaw integration boundary.`
+- Why this exists: `A bridge can be useful, but shared-channel or gateway coupling can become brittle fast.`
+- Required context:
+  - `SPEC.md`
+  - `ROADMAP.md`
+  - `research/framework-comparison.md`
+  - `selected Hermes source material`
+- Inputs:
+  - `HermesClaw README and related bridge examples`
+  - `Point's OpenClaw operating model`
+- Deliverables:
+  - `research/hermes-integration.md`
+- Files or areas likely affected:
+  - `research/`
+- Dependencies:
+  - `TASK-002 materially complete`
+- Hard requirements:
+  - `Must identify clean integration boundaries and conflict risks.`
+  - `Must not recommend shared-channel coupling casually.`
+- Exploration space:
+  - `Side-by-side, bridge, specialist-runtime, or no-integration recommendation.`
+- Acceptance criteria:
+  - `At least three integration models are described.`
+  - `A preferred path and rejected path are stated.`
+- Validation / definition of done:
+  - `Review for explicit risk treatment around gateways, state drift, and operator overhead`
+- Out of scope:
+  - `Live Hermes deployment`
+- Risks / blast radius:
+  - `Medium risk of implementation-specific assumptions from limited public examples.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `read-only reconnaissance`
+- Readiness: `Ready with assumptions`
+- Checklist:
+  - [ ] context gathered
+  - [ ] dependencies confirmed
+  - [ ] scope checked against out-of-scope
+  - [ ] implementation/deliverable completed
+  - [ ] validation run
+  - [ ] docs/status updated
+  - [ ] acceptance criteria satisfied
