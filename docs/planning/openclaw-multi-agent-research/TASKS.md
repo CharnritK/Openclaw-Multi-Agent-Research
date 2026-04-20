@@ -290,6 +290,53 @@
 - Recommended sub-agent mode: `none`
 - Readiness: `Ready with assumptions`
 - Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-007`
+- Parent Epic ID: `EPIC-006`
+- Title: `Choose the first prototype spike`
+- Objective: `Select the next concrete experiment from the validated architecture options without expanding scope.`
+- Why this exists: `The roadmap should convert from research into one bounded next experiment.`
+- Required context:
+  - `research/recommended-architecture.md`
+  - `research/validation-and-decision-gates.md`
+  - `docs/planning/openclaw-multi-agent-research/RISKS.md`
+- Inputs:
+  - `current recommendation and gate outcomes`
+  - `smallest-useful prototype options`
+- Deliverables:
+  - `research/first-prototype-spike.md`
+- Files or areas likely affected:
+  - `research/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-006 complete`
+- Hard requirements:
+  - `Must choose one bounded prototype or explicitly defer all integration spikes.`
+  - `Must keep the first experiment small enough for one implementation cycle.`
+- Exploration space:
+  - `Whether the first spike is OpenClaw-only hardening, Paperclip supervision, Hermes specialization, or explicit deferral.`
+- Acceptance criteria:
+  - `One next experiment is chosen or all experiments are explicitly deferred.`
+  - `The choice is justified with scope boundaries and success criteria.`
+- Validation / definition of done:
+  - `Review for a single concrete recommendation instead of a menu of vague options`
+- Out of scope:
+  - `Running the chosen prototype`
+- Risks / blast radius:
+  - `Low risk, documentation-only change.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `none`
+- Readiness: `Ready with assumptions`
+- Checklist:
   - [ ] context gathered
   - [ ] dependencies confirmed
   - [ ] scope checked against out-of-scope

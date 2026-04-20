@@ -4,9 +4,9 @@
 
 - initiative: `openclaw-multi-agent-research`
 - state: `active`
-- current phase: `Phase 5, recommended target architecture`
-- current task: `TASK-006 Define validation and decision gates for the first prototype`
-- next ready task: `TASK-007 Choose the first prototype spike`
+- current phase: `Phase 6, continuous research loop`
+- current task: `TASK-007 Choose the first prototype spike`
+- next ready task: `TASK-008 Reconfirm or defer integration execution`
 
 ## Completed
 
@@ -16,10 +16,11 @@
 - first-pass Paperclip integration assessment completed
 - first-pass Hermes integration assessment completed
 - recommended target architecture and prototype scope completed
+- validation and decision gates completed
 
 ## In progress
 
-- define validation and decision gates for the first prototype
+- choose the first prototype spike
 
 ## Waiting / blocked
 
@@ -27,4 +28,4 @@
 
 ## Next best step
 
-Complete `TASK-006`, commit it as a modular decision-gates commit, then define `TASK-007` for selecting the first prototype spike.
+Complete `TASK-007`, commit it as a modular prototype-choice commit, then define `TASK-008` only if another decision layer is still needed.

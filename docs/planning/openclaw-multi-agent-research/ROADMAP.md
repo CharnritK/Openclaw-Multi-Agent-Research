@@ -54,5 +54,5 @@ Produce a practical, continuously updated research program for an OpenClaw-cente
 - [x] write Hermes integration note
 - [x] write recommended architecture note
 - [x] define proof-of-concept scope
-- [ ] define validation and decision gates
+- [x] define validation and decision gates
 - [ ] keep status, decisions, and risks current after each meaningful task
