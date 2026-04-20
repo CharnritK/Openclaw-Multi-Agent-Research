@@ -528,6 +528,53 @@
 - Recommended sub-agent mode: `read-only reconnaissance`
 - Readiness: `Ready with assumptions`
 - Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-012`
+- Parent Epic ID: `EPIC-006`
+- Title: `Inspect Hermes practical integration boundary in deeper detail`
+- Objective: `Test whether Hermes can be used narrowly as a specialist runtime or service without importing its broader memory and orchestration model into Point's stack.`
+- Why this exists: `Hermes remains the strongest side-by-side specialist-runtime candidate, but its practical boundary with OpenClaw is still not evidence-strong enough.`
+- Required context:
+  - `research/deeper-evidence-plan.md`
+  - `research/hermes-integration.md`
+  - `notes/research-sources.md`
+- Inputs:
+  - `NousResearch/hermes-agent deeper docs or source surfaces`
+  - `current recommendation`
+- Deliverables:
+  - `research/hermes-practical-boundary.md`
+- Files or areas likely affected:
+  - `research/`
+  - `notes/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-011 complete`
+- Hard requirements:
+  - `Must focus only on evidence that could change the current Hermes recommendation.`
+  - `Must separate specialist-runtime value from broad orchestration ownership.`
+- Exploration space:
+  - `Exact docs and source entry points inspected.`
+- Acceptance criteria:
+  - `The recommendation for Hermes is either strengthened, weakened, or explicitly unchanged for evidence-based reasons.`
+- Validation / definition of done:
+  - `Review for concrete findings instead of repeating README language`
+- Out of scope:
+  - `Deploying or integrating Hermes`
+- Risks / blast radius:
+  - `Low risk, read-only research.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `read-only reconnaissance`
+- Readiness: `Ready with assumptions`
+- Checklist:
   - [ ] context gathered
   - [ ] dependencies confirmed
   - [ ] scope checked against out-of-scope

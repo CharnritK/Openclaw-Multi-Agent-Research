@@ -23,3 +23,9 @@
 - status: accepted
 - decision: Each bounded completed task should be committed promptly in a modular Git commit before moving to the next best ready task.
 - rationale: The user explicitly asked for regular task-level commits and continuous follow-through.
+
+## D-005 Treat Paperclip as a full coordination layer when adopted
+
+- status: accepted
+- decision: If Paperclip is adopted later, treat it as owning the company-level heartbeat, issue, session, and budget workflow for the agents it manages, not as a thin wrapper around an already-active OpenClaw orchestration loop.
+- rationale: Deeper Paperclip runtime evidence shows it directly owns heartbeat execution, issue workflow semantics, session continuity, and budget-enforced pausing, even though workspace runtime services remain more manual.

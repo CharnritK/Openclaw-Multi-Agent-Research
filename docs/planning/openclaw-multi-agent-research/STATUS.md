@@ -5,8 +5,8 @@
 - initiative: `openclaw-multi-agent-research`
 - state: `active`
 - current phase: `Phase 6, continuous research loop`
-- current task: `TASK-011 Inspect Paperclip runtime boundary in deeper detail`
-- next ready task: `TASK-012 Select the first Hermes deeper inspection target`
+- current task: `TASK-012 Inspect Hermes practical integration boundary in deeper detail`
+- next ready task: `TASK-013 Decide whether shared-channel bridge complexity still needs deeper inspection`
 
 ## Completed
 
@@ -21,10 +21,11 @@
 - OpenClaw-only prototype brief completed
 - explicit prototype execution decision completed
 - deeper evidence plan completed
+- Paperclip runtime boundary deeper inspection completed
 
 ## In progress
 
-- inspect Paperclip runtime boundary in deeper detail
+- inspect Hermes practical integration boundary in deeper detail
 
 ## Waiting / blocked
 
@@ -32,4 +33,4 @@
 
 ## Next best step
 
-Complete `TASK-011`, commit it as a modular Paperclip runtime-boundary note, then define `TASK-012` only if another prioritization layer is still needed.
+Complete `TASK-012`, commit it as a modular Hermes practical-boundary note, then decide whether shared-channel bridge complexity still needs a separate deeper inspection unit.

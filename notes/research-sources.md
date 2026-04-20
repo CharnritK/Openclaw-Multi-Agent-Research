@@ -19,4 +19,6 @@
 
 ## Evidence note
 
-This repo currently uses README-level and public-documentation evidence for first-pass narrowing. Deeper implementation inspection is still needed before final prototype decisions.
+This repo started with README-level and public-documentation evidence for first-pass narrowing.
+
+Deeper inspection now includes Paperclip runtime and server-source review from `paperclipai/paperclip` local clone head `16b2b84`, covering heartbeat, task-workflow, workspace-runtime, and budget-enforcement surfaces. Comparable deeper inspection is still needed for Hermes before final prototype decisions.
