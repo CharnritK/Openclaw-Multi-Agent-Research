@@ -41,3 +41,15 @@
 - severity: medium
 - risk: The phrase "management layer above OpenClaw" can be interpreted too loosely and hide the fact that Paperclip becomes a stronger orchestration owner once adopted for a workflow.
 - mitigation: Describe Paperclip as an owner of the managed workflow surfaces it adopts, not as a passive wrapper around an unchanged OpenClaw loop.
+
+## R-008 Evidence traceability drift
+
+- severity: medium
+- risk: The current recommendation can be repeated confidently even when the supporting evidence, counterevidence, and reopen triggers are scattered across multiple notes rather than mapped in one place.
+- mitigation: Maintain a decision evidence map that records claim strength, source class, inspected refs, counterevidence, remaining gaps, and the next trigger that would justify reopening the question.
+
+## R-009 Contract-free prototype drift
+
+- severity: high
+- risk: A Paperclip or Hermes prototype could be reopened without a single workflow contract, causing the repo to reintroduce vague dual-control-plane assumptions.
+- mitigation: Gate any future reopen through the Paperclip adoption-trigger study or the Hermes specialist worker contract before implementation begins.

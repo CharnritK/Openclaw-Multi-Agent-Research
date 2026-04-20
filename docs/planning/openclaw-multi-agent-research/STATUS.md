@@ -4,9 +4,9 @@
 
 - initiative: `openclaw-multi-agent-research`
 - state: `active`
-- current phase: `Phase 6, continuous research loop`
-- current task: `none, bounded research package is decision-ready`
-- next ready task: `none, await a concrete prototype trigger or shared-channel requirement`
+- current phase: `Phase 7, decision hardening complete`
+- current task: `none, decision-hardening checkpoint closed`
+- next ready task: `none, reopen with TASK-014 or TASK-015 only when a concrete trigger appears`
 
 ## Completed
 
@@ -24,6 +24,10 @@
 - Paperclip runtime boundary deeper inspection completed
 - Hermes practical integration boundary deeper inspection completed
 - architecture review and bridge-depth decision completed
+- Paperclip adoption-trigger study completed
+- Hermes specialist worker contract completed
+- decision evidence map completed
+- decision-hardening review completed
 
 ## In progress
 
@@ -35,4 +39,4 @@
 
 ## Next best step
 
-Hold further deepening until a concrete prototype trigger or shared-channel requirement appears, then reopen with one bounded question at a time.
+Hold the architecture unchanged unless a decision-hardening reopen trigger becomes concrete. If portfolio-level oversight pain appears first, reopen with `TASK-014`; if a remote specialist workflow becomes concrete first, reopen with `TASK-015`.

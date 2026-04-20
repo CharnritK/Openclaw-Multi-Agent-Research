@@ -10,7 +10,8 @@ Produce a practical, continuously updated research program for an OpenClaw-cente
 2. Compare candidate frameworks against bounded orchestration needs.
 3. Evaluate Paperclip and Hermes as integration layers, not automatic core dependencies.
 4. Turn research into a decision-ready architecture recommendation.
-5. Advance in small, commit-sized tasks.
+5. Harden medium-confidence recommendations into explicit triggers, contracts, and evidence maps before live prototype pressure.
+6. Advance in small, commit-sized tasks.
 
 ## Phases
 
@@ -45,6 +46,13 @@ Produce a practical, continuously updated research program for an OpenClaw-cente
 - update decisions, risks, and task readiness as evidence improves
 - exit criteria: ongoing maintenance mode with a clear next-best task always visible
 
+### Phase 7, decision hardening
+- convert the current architecture recommendation into a traceable evidence-backed checkpoint
+- define one Paperclip adoption-trigger workflow and one Hermes specialist contract that can reopen research without broadening scope
+- centralize major claims, source classes, counterevidence, and reopen triggers in one evidence map
+- rerun a short architecture review after those artifacts land
+- exit criteria: the recommendation is either reaffirmed or narrowed with explicit reopen rules and no broad framework expansion
+
 ## Final todo checklist
 
 - [x] create canonical planning bundle
@@ -55,4 +63,8 @@ Produce a practical, continuously updated research program for an OpenClaw-cente
 - [x] write recommended architecture note
 - [x] define proof-of-concept scope
 - [x] define validation and decision gates
+- [x] write Paperclip adoption-trigger study
+- [x] write Hermes specialist worker contract
+- [x] create decision evidence map
+- [x] write decision-hardening review
 - [ ] keep status, decisions, and risks current after each meaningful task

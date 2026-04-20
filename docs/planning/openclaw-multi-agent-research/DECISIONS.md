@@ -41,3 +41,15 @@
 - status: accepted
 - decision: Shared-channel bridge complexity does not need a separate deeper inspection unit yet and should stay deferred unless a real messaging-channel constraint makes bridge behavior decision-critical.
 - rationale: The current architecture recommendation already avoids bridges by default. Further bridge detail is unlikely to change the recommendation before a concrete shared-channel need exists.
+
+## D-008 Run a docs-first decision-hardening pass before any live integration spike
+
+- status: accepted
+- decision: Convert the current medium-confidence architecture direction into explicit adoption triggers, worker contracts, and an evidence map before any live Paperclip, Hermes, or bridge prototype is reopened.
+- rationale: The remaining gaps are traceability and bounded reopen conditions, not missing framework breadth.
+
+## D-009 Reopen research only through one bounded trigger question at a time
+
+- status: accepted
+- decision: Reopen Paperclip through a single portfolio-oversight adoption-trigger study, reopen Hermes through a single specialist worker contract, and keep broad framework comparison closed unless a new candidate materially threatens the current recommendation.
+- rationale: The architecture review identified these as the only remaining questions likely to change the recommendation without inviting research sprawl.

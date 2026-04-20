@@ -638,3 +638,218 @@
   - [x] validation run
   - [x] docs/status updated
   - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-014`
+- Parent Epic ID: `EPIC-006`
+- Title: `Define the Paperclip adoption trigger as one bounded workflow study`
+- Objective: `Determine whether portfolio-level oversight for multiple parallel OpenClaw workstreams is concrete enough to justify a Paperclip spike without surrendering repo task ownership.`
+- Why this exists: `Paperclip remains the strongest optional supervision layer, but the repo still needs one explicit workflow-level trigger before reopening it.`
+- Required context:
+  - `research/paperclip-integration.md`
+  - `research/paperclip-runtime-boundary.md`
+  - `research/validation-and-decision-gates.md`
+  - `research/architecture-review.md`
+  - `docs/planning/openclaw-multi-agent-research/DECISIONS.md`
+- Inputs:
+  - `current Paperclip recommendation`
+  - `Gate B prototype criteria`
+  - `Point's bounded-control-plane preference`
+- Deliverables:
+  - `research/paperclip-adoption-trigger.md`
+  - `planning updates reflecting the bounded reopen trigger`
+- Files or areas likely affected:
+  - `research/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-013 complete`
+- Hard requirements:
+  - `Must define one candidate workflow, not a menu of Paperclip ideas.`
+  - `Must keep OpenClaw ownership of repo task state explicit.`
+  - `Must state what evidence would overturn the conclusion.`
+- Exploration space:
+  - `Exact wording of the workflow boundary and trigger conditions.`
+- Acceptance criteria:
+  - `OpenClaw-owned and Paperclip-owned surfaces are explicit.`
+  - `Rejection signals and adoption trigger are concrete.`
+  - `The decision impact is clear without reopening broad framework comparison.`
+- Validation / definition of done:
+  - `Review for consistency with D-005 and Gate B in research/validation-and-decision-gates.md`
+- Out of scope:
+  - `Deploying Paperclip`
+  - `Allowing Paperclip to own repo task decomposition`
+- Risks / blast radius:
+  - `Low risk, documentation-only changes.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `none`
+- Readiness: `Ready`
+- Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-015`
+- Parent Epic ID: `EPIC-006`
+- Title: `Define the Hermes specialist worker contract for one remote watcher workflow`
+- Objective: `Specify a single Hermes-owned workflow contract for a long-lived remote research watcher that scans upstream framework changes and returns structured findings to OpenClaw.`
+- Why this exists: `Hermes remains the strongest specialist-runtime candidate, but the repo still needs one precise contract before reopening implementation pressure.`
+- Required context:
+  - `research/hermes-integration.md`
+  - `research/hermes-practical-boundary.md`
+  - `research/validation-and-decision-gates.md`
+  - `research/architecture-review.md`
+  - `docs/planning/openclaw-multi-agent-research/DECISIONS.md`
+- Inputs:
+  - `current Hermes recommendation`
+  - `Gate C prototype criteria`
+  - `Point's control-plane and approval boundaries`
+- Deliverables:
+  - `research/hermes-worker-contract.md`
+  - `planning updates reflecting the bounded reopen contract`
+- Files or areas likely affected:
+  - `research/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-013 complete`
+- Hard requirements:
+  - `Must define one workflow and one ownership boundary.`
+  - `Must keep OpenClaw as the primary control plane.`
+  - `Must state what evidence would overturn the conclusion.`
+- Exploration space:
+  - `Exact input/output and failure-handling contract wording.`
+- Acceptance criteria:
+  - `Owner, input brief, output artifact, state boundary, approval boundary, and failure handling are explicit.`
+  - `The reason to use Hermes instead of OpenClaw alone is concrete.`
+  - `The contract does not require shared gateway or shared memory ownership.`
+- Validation / definition of done:
+  - `Review for consistency with D-006 and Gate C in research/validation-and-decision-gates.md`
+- Out of scope:
+  - `Deploying Hermes`
+  - `Shared-channel bridge design`
+- Risks / blast radius:
+  - `Low risk, documentation-only changes.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `none`
+- Readiness: `Ready`
+- Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-016`
+- Parent Epic ID: `EPIC-006`
+- Title: `Create the decision evidence map`
+- Objective: `Centralize the major architecture claims, evidence strength, source classes, counterevidence, remaining gaps, and reopen triggers in one durable note.`
+- Why this exists: `The repo is now stable enough that the next failure mode is evidence traceability drift rather than missing comparison notes.`
+- Required context:
+  - `research/recommended-architecture.md`
+  - `research/architecture-review.md`
+  - `research/paperclip-runtime-boundary.md`
+  - `research/hermes-practical-boundary.md`
+  - `notes/research-sources.md`
+  - `docs/planning/openclaw-multi-agent-research/RISKS.md`
+- Inputs:
+  - `current architecture claims`
+  - `deeper Paperclip and Hermes evidence`
+  - `decision-hardening scope limits`
+- Deliverables:
+  - `notes/evidence-map.md`
+- Files or areas likely affected:
+  - `notes/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-014 complete`
+  - `TASK-015 complete`
+- Hard requirements:
+  - `Must track claim, current verdict, evidence strength, source class, inspected refs, counterevidence, remaining gap, and next trigger.`
+  - `Must not turn into a generic literature review.`
+- Exploration space:
+  - `Exact note structure as long as all required fields remain explicit.`
+- Acceptance criteria:
+  - `Every major recommendation claim is traceable to specific local notes and upstream surfaces.`
+  - `Counterevidence and reopen triggers are visible in one place.`
+- Validation / definition of done:
+  - `Review for complete claim coverage and explicit trigger logic`
+- Out of scope:
+  - `New framework comparison`
+  - `Live validation against upstream services`
+- Risks / blast radius:
+  - `Low risk, documentation-only changes.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `none`
+- Readiness: `Ready`
+- Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-017`
+- Parent Epic ID: `EPIC-006`
+- Title: `Re-review the architecture after decision-hardening artifacts land`
+- Objective: `Confirm whether the current architecture should stay unchanged or be narrowed further after the adoption-trigger study, Hermes contract, and evidence map are published.`
+- Why this exists: `The repo should end the decision-hardening pass with one explicit checkpoint rather than another soft pile of docs.`
+- Required context:
+  - `research/paperclip-adoption-trigger.md`
+  - `research/hermes-worker-contract.md`
+  - `notes/evidence-map.md`
+  - `research/recommended-architecture.md`
+  - `research/validation-and-decision-gates.md`
+  - `research/architecture-review.md`
+- Inputs:
+  - `Phase 7 decision-hardening artifacts`
+  - `current recommendation and gate set`
+- Deliverables:
+  - `research/decision-hardening-review.md`
+  - `planning updates reflecting the checkpoint verdict`
+- Files or areas likely affected:
+  - `research/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-016 complete`
+- Hard requirements:
+  - `Must either keep the current architecture unchanged or narrow it further.`
+  - `Must not reopen broad framework exploration.`
+  - `Must state what evidence would overturn the checkpoint verdict.`
+- Exploration space:
+  - `Exact review framing as long as the verdict is explicit and bounded.`
+- Acceptance criteria:
+  - `The review states whether the recommendation changed.`
+  - `Deferred questions remain deferred for specific reasons.`
+  - `The repo leaves Phase 7 with explicit reopen rules, not with generic research appetite.`
+- Validation / definition of done:
+  - `Review for a clear verdict, explicit deferred questions, and consistency with the evidence map`
+- Out of scope:
+  - `New live prototype work`
+  - `Broad new ecosystem comparison`
+- Risks / blast radius:
+  - `Low risk, documentation-only changes.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `none`
+- Readiness: `Ready`
+- Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
