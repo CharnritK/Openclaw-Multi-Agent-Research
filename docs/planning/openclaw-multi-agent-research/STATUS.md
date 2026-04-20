@@ -5,8 +5,8 @@
 - initiative: `openclaw-multi-agent-research`
 - state: `active`
 - current phase: `Phase 6, continuous research loop`
-- current task: `TASK-010 Deepen evidence beyond README-level claims`
-- next ready task: `TASK-011 Select the first deeper inspection target`
+- current task: `TASK-011 Inspect Paperclip runtime boundary in deeper detail`
+- next ready task: `TASK-012 Select the first Hermes deeper inspection target`
 
 ## Completed
 
@@ -20,10 +20,11 @@
 - first prototype spike selected
 - OpenClaw-only prototype brief completed
 - explicit prototype execution decision completed
+- deeper evidence plan completed
 
 ## In progress
 
-- deepen evidence beyond README-level claims
+- inspect Paperclip runtime boundary in deeper detail
 
 ## Waiting / blocked
 
@@ -31,4 +32,4 @@
 
 ## Next best step
 
-Complete `TASK-010`, commit it as a modular deeper-evidence-plan commit, then define `TASK-011` only if another prioritization layer is still needed.
+Complete `TASK-011`, commit it as a modular Paperclip runtime-boundary note, then define `TASK-012` only if another prioritization layer is still needed.

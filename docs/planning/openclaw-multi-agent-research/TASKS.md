@@ -481,6 +481,53 @@
 - Recommended sub-agent mode: `read-only reconnaissance`
 - Readiness: `Ready with assumptions`
 - Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-011`
+- Parent Epic ID: `EPIC-006`
+- Title: `Inspect Paperclip runtime boundary in deeper detail`
+- Objective: `Test whether Paperclip is truly a clean management layer above OpenClaw or a stronger co-orchestrator than first-pass materials suggest.`
+- Why this exists: `Paperclip is the strongest optional layer candidate and the biggest remaining ambiguity.`
+- Required context:
+  - `research/deeper-evidence-plan.md`
+  - `research/paperclip-integration.md`
+  - `notes/research-sources.md`
+- Inputs:
+  - `paperclipai/paperclip deeper docs or source surfaces`
+  - `current recommendation`
+- Deliverables:
+  - `research/paperclip-runtime-boundary.md`
+- Files or areas likely affected:
+  - `research/`
+  - `notes/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-010 complete`
+- Hard requirements:
+  - `Must focus only on evidence that could change the current Paperclip recommendation.`
+  - `Must separate governance-layer behavior from execution ownership.`
+- Exploration space:
+  - `Exact docs and source entry points inspected.`
+- Acceptance criteria:
+  - `The recommendation for Paperclip is either strengthened, weakened, or explicitly unchanged for evidence-based reasons.`
+- Validation / definition of done:
+  - `Review for concrete findings instead of restating README language`
+- Out of scope:
+  - `Deploying or integrating Paperclip`
+- Risks / blast radius:
+  - `Low risk, read-only research.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `read-only reconnaissance`
+- Readiness: `Ready with assumptions`
+- Checklist:
   - [ ] context gathered
   - [ ] dependencies confirmed
   - [ ] scope checked against out-of-scope
