@@ -1,9 +1,9 @@
 {
   "initiative": "openclaw-multi-agent-research",
   "state": "active",
-  "currentPhase": "Phase 2, framework landscape scan",
-  "currentTask": "TASK-002",
-  "nextReadyTask": "TASK-003",
+  "currentPhase": "Phase 3, Paperclip integration track",
+  "currentTask": "TASK-003",
+  "nextReadyTask": "TASK-004",
   "files": [
     "SPEC.md",
     "ROADMAP.md",
