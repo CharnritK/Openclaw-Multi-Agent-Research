@@ -21,4 +21,8 @@
 
 This repo started with README-level and public-documentation evidence for first-pass narrowing.
 
-Deeper inspection now includes Paperclip runtime and server-source review from `paperclipai/paperclip` local clone head `16b2b84`, covering heartbeat, task-workflow, workspace-runtime, and budget-enforcement surfaces. Comparable deeper inspection is still needed for Hermes before final prototype decisions.
+Deeper inspection now includes:
+- Paperclip runtime and server-source review from `paperclipai/paperclip` local clone head `16b2b84`, covering heartbeat, task-workflow, workspace-runtime, and budget-enforcement surfaces
+- Hermes runtime, gateway, session, cron, memory, and delegation review from `NousResearch/hermes-agent` local clone head `dcd763c`, covering practical narrow-use seams versus broad orchestration ownership
+
+Bridge-runtime complexity has not been inspected to the same depth and remains intentionally deferred unless a real shared-channel requirement appears.

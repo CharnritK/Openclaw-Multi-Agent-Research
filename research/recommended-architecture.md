@@ -48,10 +48,11 @@ Responsibilities if adopted:
 - budgets and cost governance
 - org-chart and multi-agent oversight
 - high-level goals and portfolio visibility
-- heartbeats only at the company or portfolio level, not repo-level task ownership
+- Paperclip-owned task and heartbeat flow only for agents or workflows that Paperclip explicitly manages
 
 Boundary:
-- Paperclip should not become the co-owner of OpenClaw task decomposition or repo-local control-plane state
+- do not present Paperclip as a thin wrapper above an already-active OpenClaw control plane for the same repo task stream
+- if Paperclip is adopted, treat OpenClaw either as the primary standalone control plane or as a Paperclip-managed runtime for clearly separated work, not both at once for the same unit of work
 
 Adoption trigger:
 - adopt only when multi-agent oversight, budget control, or multi-company visibility becomes painful enough to justify the extra runtime and UI layer
@@ -145,4 +146,4 @@ If no:
 
 ## Bottom line
 
-The best current architecture is a conservative layered model: OpenClaw first, Paperclip only above it if management-scale pain appears, and Hermes only beside it or behind it when a specific specialist capability is worth the complexity. The fallback is even simpler, stay OpenClaw-only until the need becomes undeniable.
+The best current architecture is a conservative layered model: OpenClaw first, Paperclip only when management-scale pain appears and ownership stays explicit, and Hermes only beside it or behind it when a specific specialist capability is worth the complexity. The fallback is even simpler, stay OpenClaw-only until the need becomes undeniable.

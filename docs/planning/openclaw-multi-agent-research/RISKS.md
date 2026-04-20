@@ -29,3 +29,15 @@
 - severity: medium
 - risk: Work can pile up uncommitted, breaking the modular task-level history the user requested.
 - mitigation: Treat commit-and-push as part of task completion, not an optional cleanup step.
+
+## R-006 Hermes boundary drift
+
+- severity: high
+- risk: Hermes can start as a narrow specialist runtime but drift into shared gateway, scheduler, memory, or task ownership, recreating the dual-control-plane ambiguity the research is trying to avoid.
+- mitigation: Assign one owning control plane per workflow, prefer side-by-side or backend-style boundaries, and treat shared-channel operation as opt-in exception work.
+
+## R-007 Paperclip framing drift
+
+- severity: medium
+- risk: The phrase "management layer above OpenClaw" can be interpreted too loosely and hide the fact that Paperclip becomes a stronger orchestration owner once adopted for a workflow.
+- mitigation: Describe Paperclip as an owner of the managed workflow surfaces it adopts, not as a passive wrapper around an unchanged OpenClaw loop.

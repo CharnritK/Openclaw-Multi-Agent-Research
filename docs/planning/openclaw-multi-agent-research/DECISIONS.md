@@ -29,3 +29,15 @@
 - status: accepted
 - decision: If Paperclip is adopted later, treat it as owning the company-level heartbeat, issue, session, and budget workflow for the agents it manages, not as a thin wrapper around an already-active OpenClaw orchestration loop.
 - rationale: Deeper Paperclip runtime evidence shows it directly owns heartbeat execution, issue workflow semantics, session continuity, and budget-enforced pausing, even though workspace runtime services remain more manual.
+
+## D-006 Treat Hermes as a bounded specialist runtime, not a blended co-owner
+
+- status: accepted
+- decision: If Hermes is adopted later, keep OpenClaw as the primary control plane and use Hermes only for explicitly bounded specialist workflows or a narrow backend-style service contract, not as a shared default gateway, scheduler, memory surface, or task owner for the same work.
+- rationale: Deeper Hermes runtime evidence shows both strong orchestration overlap and real narrow-use seams. The safe value comes from explicit boundary control, not casual coexistence.
+
+## D-007 Defer bridge deepening unless a channel constraint becomes real
+
+- status: accepted
+- decision: Shared-channel bridge complexity does not need a separate deeper inspection unit yet and should stay deferred unless a real messaging-channel constraint makes bridge behavior decision-critical.
+- rationale: The current architecture recommendation already avoids bridges by default. Further bridge detail is unlikely to change the recommendation before a concrete shared-channel need exists.

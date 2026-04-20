@@ -575,10 +575,66 @@
 - Recommended sub-agent mode: `read-only reconnaissance`
 - Readiness: `Ready with assumptions`
 - Checklist:
-  - [ ] context gathered
-  - [ ] dependencies confirmed
-  - [ ] scope checked against out-of-scope
-  - [ ] implementation/deliverable completed
-  - [ ] validation run
-  - [ ] docs/status updated
-  - [ ] acceptance criteria satisfied
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-013`
+- Parent Epic ID: `EPIC-006`
+- Title: `Architect-review the research package and decide whether deeper bridge inspection is still needed`
+- Objective: `Pressure-test whether the current research is solid enough to support the recommendation, identify the remaining questions that could still change it, and decide whether shared-channel bridge complexity needs its own deeper inspection unit.`
+- Why this exists: `The current recommendation should not advance on momentum alone; it needs one architecture-level pass to confirm whether remaining uncertainty is truly decision-critical.`
+- Required context:
+  - `research/recommended-architecture.md`
+  - `research/framework-comparison.md`
+  - `research/paperclip-integration.md`
+  - `research/hermes-integration.md`
+  - `research/paperclip-runtime-boundary.md`
+  - `research/hermes-practical-boundary.md`
+  - `research/deeper-evidence-plan.md`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Inputs:
+  - `current recommendation`
+  - `deeper Paperclip and Hermes findings`
+  - `Point's bounded-control-plane preference`
+- Deliverables:
+  - `research/architecture-review.md`
+  - `planning updates reflecting whether deeper bridge work is still required`
+- Files or areas likely affected:
+  - `research/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-012 complete`
+- Hard requirements:
+  - `Must judge the existing recommendation, not reopen broad framework exploration.`
+  - `Must state whether bridge deepening is still decision-critical or safely deferrable.`
+- Exploration space:
+  - `Exact review framing and wording of remaining questions.`
+- Acceptance criteria:
+  - `The review explicitly states whether the recommendation is solid enough now.`
+  - `Any remaining questions are tied to concrete recommendation-change risk.`
+  - `Bridge inspection is either deferred with rationale or retained with rationale.`
+- Validation / definition of done:
+  - `Review for a clear verdict, concrete weak spots, and an explicit bridge decision`
+- Out of scope:
+  - `New implementation work`
+  - `Broad new framework comparison`
+- Risks / blast radius:
+  - `Low risk, documentation-only changes.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `none`
+- Readiness: `Ready with assumptions`
+- Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
