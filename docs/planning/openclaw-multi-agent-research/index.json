@@ -1,9 +1,9 @@
 {
   "initiative": "openclaw-multi-agent-research",
   "state": "active",
-  "currentPhase": "Phase 4, Hermes integration track",
-  "currentTask": "TASK-004",
-  "nextReadyTask": "TASK-005",
+  "currentPhase": "Phase 5, recommended target architecture",
+  "currentTask": "TASK-005",
+  "nextReadyTask": "TASK-006",
   "files": [
     "SPEC.md",
     "ROADMAP.md",

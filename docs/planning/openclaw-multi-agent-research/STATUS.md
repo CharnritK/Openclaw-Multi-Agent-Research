@@ -4,9 +4,9 @@
 
 - initiative: `openclaw-multi-agent-research`
 - state: `active`
-- current phase: `Phase 4, Hermes integration track`
-- current task: `TASK-004 Write the first-pass Hermes integration assessment`
-- next ready task: `TASK-005 Recommended target architecture`
+- current phase: `Phase 5, recommended target architecture`
+- current task: `TASK-005 Write the recommended target architecture and prototype scope`
+- next ready task: `TASK-006 Define validation and decision gates`
 
 ## Completed
 
@@ -14,10 +14,11 @@
 - canonical planning bundle completed and validated
 - first-pass framework comparison baseline completed
 - first-pass Paperclip integration assessment completed
+- first-pass Hermes integration assessment completed
 
 ## In progress
 
-- write the first-pass Hermes integration assessment
+- write the recommended target architecture and prototype scope
 
 ## Waiting / blocked
 
@@ -25,4 +26,4 @@
 
 ## Next best step
 
-Complete `TASK-004`, commit it as a modular Hermes assessment commit, then define `TASK-005` for the recommended target architecture.
+Complete `TASK-005`, commit it as a modular architecture recommendation commit, then define `TASK-006` if additional validation-gate detail is still needed.

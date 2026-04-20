@@ -190,6 +190,58 @@
 - Recommended sub-agent mode: `read-only reconnaissance`
 - Readiness: `Ready with assumptions`
 - Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-005`
+- Parent Epic ID: `EPIC-005`
+- Title: `Write the recommended target architecture and prototype scope`
+- Objective: `Synthesize the research into one recommended architecture, one fallback path, and a smallest-useful prototype plan.`
+- Why this exists: `The research should end in a decision-ready architecture, not just separate comparison notes.`
+- Required context:
+  - `SPEC.md`
+  - `ROADMAP.md`
+  - `research/framework-comparison.md`
+  - `research/paperclip-integration.md`
+  - `research/hermes-integration.md`
+- Inputs:
+  - `completed first-pass research notes`
+  - `Point's commit-discipline and control-plane constraints`
+- Deliverables:
+  - `research/recommended-architecture.md`
+- Files or areas likely affected:
+  - `research/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-003 complete`
+  - `TASK-004 complete`
+- Hard requirements:
+  - `Must keep OpenClaw central unless evidence clearly disproves that path.`
+  - `Must include one recommended path and one fallback path.`
+  - `Must define a prototype scope with explicit validation gates.`
+- Exploration space:
+  - `Exact prototype boundary and fallback framing.`
+- Acceptance criteria:
+  - `A target architecture is stated clearly.`
+  - `A fallback path is stated clearly.`
+  - `Prototype scope and decision gates are explicit.`
+- Validation / definition of done:
+  - `Review for consistency with the prior research notes and roadmap`
+- Out of scope:
+  - `Implementing the prototype`
+- Risks / blast radius:
+  - `Medium risk of overcommitting before deeper evidence.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `none`
+- Readiness: `Ready with assumptions`
+- Checklist:
   - [ ] context gathered
   - [ ] dependencies confirmed
   - [ ] scope checked against out-of-scope
