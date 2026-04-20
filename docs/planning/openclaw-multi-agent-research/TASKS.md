@@ -337,6 +337,53 @@
 - Recommended sub-agent mode: `none`
 - Readiness: `Ready with assumptions`
 - Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-008`
+- Parent Epic ID: `EPIC-006`
+- Title: `Prepare the OpenClaw-only prototype brief`
+- Objective: `Turn the chosen OpenClaw-only prototype into a small execution-ready brief.`
+- Why this exists: `The selected first spike should become concrete enough to hand off or implement later without re-planning.`
+- Required context:
+  - `research/first-prototype-spike.md`
+  - `research/recommended-architecture.md`
+  - `research/validation-and-decision-gates.md`
+- Inputs:
+  - `selected OpenClaw-only control case`
+  - `current repo planning discipline`
+- Deliverables:
+  - `research/openclaw-only-prototype-brief.md`
+- Files or areas likely affected:
+  - `research/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-007 complete`
+- Hard requirements:
+  - `Must keep scope bounded to the OpenClaw-only control case.`
+  - `Must define success criteria and explicit non-goals.`
+- Exploration space:
+  - `Exact brief structure as long as it is execution-ready and compact.`
+- Acceptance criteria:
+  - `The next implementation unit can start without reopening architecture choice.`
+  - `Scope boundaries and success criteria are explicit.`
+- Validation / definition of done:
+  - `Review for a bounded implementation-ready brief rather than another abstract strategy note`
+- Out of scope:
+  - `Executing the prototype`
+- Risks / blast radius:
+  - `Low risk, documentation-only change.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `none`
+- Readiness: `Ready with assumptions`
+- Checklist:
   - [ ] context gathered
   - [ ] dependencies confirmed
   - [ ] scope checked against out-of-scope
