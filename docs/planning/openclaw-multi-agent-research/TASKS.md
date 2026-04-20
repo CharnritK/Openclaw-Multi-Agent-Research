@@ -143,13 +143,13 @@
 - Recommended sub-agent mode: `read-only reconnaissance`
 - Readiness: `Ready with assumptions`
 - Checklist:
-  - [ ] context gathered
-  - [ ] dependencies confirmed
-  - [ ] scope checked against out-of-scope
-  - [ ] implementation/deliverable completed
-  - [ ] validation run
-  - [ ] docs/status updated
-  - [ ] acceptance criteria satisfied
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
 
 ## Task Card
 
