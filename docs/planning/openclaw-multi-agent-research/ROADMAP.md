@@ -48,11 +48,11 @@ Produce a practical, continuously updated research program for an OpenClaw-cente
 ## Final todo checklist
 
 - [x] create canonical planning bundle
-- [ ] define evaluation rubric for framework fit
-- [ ] write framework comparison baseline
-- [ ] write Paperclip integration note
-- [ ] write Hermes integration note
-- [ ] write recommended architecture note
-- [ ] define proof-of-concept scope
+- [x] define evaluation rubric for framework fit
+- [x] write framework comparison baseline
+- [x] write Paperclip integration note
+- [x] write Hermes integration note
+- [x] write recommended architecture note
+- [x] define proof-of-concept scope
 - [ ] define validation and decision gates
 - [ ] keep status, decisions, and risks current after each meaningful task

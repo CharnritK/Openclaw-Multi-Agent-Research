@@ -2,8 +2,8 @@
   "initiative": "openclaw-multi-agent-research",
   "state": "active",
   "currentPhase": "Phase 5, recommended target architecture",
-  "currentTask": "TASK-005",
-  "nextReadyTask": "TASK-006",
+  "currentTask": "TASK-006",
+  "nextReadyTask": "TASK-007",
   "files": [
     "SPEC.md",
     "ROADMAP.md",

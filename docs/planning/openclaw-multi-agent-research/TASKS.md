@@ -242,6 +242,54 @@
 - Recommended sub-agent mode: `none`
 - Readiness: `Ready with assumptions`
 - Checklist:
+  - [x] context gathered
+  - [x] dependencies confirmed
+  - [x] scope checked against out-of-scope
+  - [x] implementation/deliverable completed
+  - [x] validation run
+  - [x] docs/status updated
+  - [x] acceptance criteria satisfied
+
+## Task Card
+
+- Task ID: `TASK-006`
+- Parent Epic ID: `EPIC-005`
+- Title: `Define validation and decision gates for the first prototype`
+- Objective: `Turn the recommended architecture into an explicit go/no-go checklist for small prototype spikes.`
+- Why this exists: `A recommendation is stronger when the next experiment has clear decision gates instead of vague exploration.`
+- Required context:
+  - `research/recommended-architecture.md`
+  - `research/framework-comparison.md`
+  - `research/paperclip-integration.md`
+  - `research/hermes-integration.md`
+- Inputs:
+  - `existing architecture recommendation`
+  - `prototype constraints and risks`
+- Deliverables:
+  - `research/validation-and-decision-gates.md`
+- Files or areas likely affected:
+  - `research/`
+  - `docs/planning/openclaw-multi-agent-research/`
+- Dependencies:
+  - `TASK-005 complete`
+- Hard requirements:
+  - `Must define explicit pass, fail, or defer conditions for Paperclip and Hermes spikes.`
+  - `Must preserve OpenClaw-only as a valid outcome.`
+- Exploration space:
+  - `How fine-grained the gate checklist should be.`
+- Acceptance criteria:
+  - `The next experiment can be chosen without reopening the whole framework debate.`
+  - `Deferral conditions are explicit.`
+- Validation / definition of done:
+  - `Review for explicit, testable decision criteria rather than abstract preferences`
+- Out of scope:
+  - `Running the prototype`
+- Risks / blast radius:
+  - `Low risk, documentation-only change.`
+- Recommended model: `gpt-5.4`
+- Recommended sub-agent mode: `none`
+- Readiness: `Ready with assumptions`
+- Checklist:
   - [ ] context gathered
   - [ ] dependencies confirmed
   - [ ] scope checked against out-of-scope

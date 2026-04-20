@@ -5,8 +5,8 @@
 - initiative: `openclaw-multi-agent-research`
 - state: `active`
 - current phase: `Phase 5, recommended target architecture`
-- current task: `TASK-005 Write the recommended target architecture and prototype scope`
-- next ready task: `TASK-006 Define validation and decision gates`
+- current task: `TASK-006 Define validation and decision gates for the first prototype`
+- next ready task: `TASK-007 Choose the first prototype spike`
 
 ## Completed
 
@@ -15,10 +15,11 @@
 - first-pass framework comparison baseline completed
 - first-pass Paperclip integration assessment completed
 - first-pass Hermes integration assessment completed
+- recommended target architecture and prototype scope completed
 
 ## In progress
 
-- write the recommended target architecture and prototype scope
+- define validation and decision gates for the first prototype
 
 ## Waiting / blocked
 
@@ -26,4 +27,4 @@
 
 ## Next best step
 
-Complete `TASK-005`, commit it as a modular architecture recommendation commit, then define `TASK-006` if additional validation-gate detail is still needed.
+Complete `TASK-006`, commit it as a modular decision-gates commit, then define `TASK-007` for selecting the first prototype spike.
